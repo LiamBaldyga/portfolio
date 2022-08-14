@@ -40,6 +40,21 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image
                   alt=''
+                  src='/skills/tailwind.png'
+                  width='64'
+                  height='64'
+                />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>TailwindCSS</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105'>
+            <div className='grid items-center justify-center grid-cols-2 gap-4'>
+              <div className='m-auto'>
+                <Image
+                  alt=''
                   src='/skills/javascript.png'
                   width='64'
                   height='64'
@@ -47,6 +62,21 @@ const Skills = () => {
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Javascript</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105'>
+            <div className='grid items-center justify-center grid-cols-2 gap-4'>
+              <div className='m-auto'>
+                <Image
+                  alt=''
+                  src='/skills/typescript.png'
+                  width='64'
+                  height='64'
+                />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Typescript</h3>
               </div>
             </div>
           </div>
@@ -85,6 +115,21 @@ const Skills = () => {
               <div className='m-auto'>
                 <Image
                   alt=''
+                  src='/skills/postgres.png'
+                  width='64'
+                  height='64'
+                />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>PostgreSQL</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105'>
+            <div className='grid items-center justify-center grid-cols-2 gap-4'>
+              <div className='m-auto'>
+                <Image
+                  alt=''
                   src='/skills/firebase.png'
                   width='64'
                   height='64'
@@ -98,15 +143,25 @@ const Skills = () => {
           <div className='p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105'>
             <div className='grid items-center justify-center grid-cols-2 gap-4'>
               <div className='m-auto'>
+                <Image alt='' src='/skills/prisma.png' width='64' height='64' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Prisma</h3>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 duration-300 ease-in shadow-xl rounded-xl hover:scale-105'>
+            <div className='grid items-center justify-center grid-cols-2 gap-4'>
+              <div className='m-auto'>
                 <Image
                   alt=''
-                  src='/skills/tailwind.png'
+                  src='/skills/graphql.png'
                   width='64'
                   height='64'
                 />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>TailwindCSS</h3>
+                <h3>GraphQL</h3>
               </div>
             </div>
           </div>

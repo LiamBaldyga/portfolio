@@ -49,18 +49,21 @@ const Contact = () => {
                 <p className='pt-8 text-center uppercase'>Connect With Me</p>
                 <div>
                   <div className='flex items-center justify-between max-w-xs py-4 m-auto'>
-                    <div className='p-6 duration-200 ease-in-out rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:-translate-y-3'>
-                      <FaLinkedinIn />
-                    </div>
-                    <div className='p-6 duration-200 ease-in-out rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:-translate-y-3'>
-                      <FaGithub />
-                    </div>
-                    <div className='p-6 duration-200 ease-in-out rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:-translate-y-3'>
-                      <AiOutlineMail />
-                    </div>
-                    <div className='p-6 duration-200 ease-in-out rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:-translate-y-3'>
-                      <BsFillPersonLinesFill />
-                    </div>
+                    <a href='https://www.linkedin.com/in/liam-baldyga-0493b1180'>
+                      <div className='p-6 duration-200 ease-in-out rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:-translate-y-3'>
+                        <FaLinkedinIn />
+                      </div>
+                    </a>
+                    <a href='https://github.com/LiamBaldyga'>
+                      <div className='p-6 duration-200 ease-in-out rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:-translate-y-3'>
+                        <FaGithub />
+                      </div>
+                    </a>
+                    <a href='mailto:liambaldyga1@gmail.com'>
+                      <div className='p-6 duration-200 ease-in-out rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:-translate-y-3'>
+                        <AiOutlineMail />
+                      </div>
+                    </a>
                   </div>
                 </div>
               </div>
